@@ -18,11 +18,7 @@ function cloneField(){
     fields.forEach(function(field){
         //pegar o field do momento e limpa ele
         field.value = "";
-    })
-
-    fields[0].value = "";
-    fields[1].value = "";
-
+    });
 
     // colocar na pagina. onde?
     document.querySelector('#schedule-items').appendChild(newFieldContainer);
